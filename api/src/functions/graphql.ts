@@ -16,4 +16,6 @@ export const handler = createGraphQLHandler({
     // Disconnect from your database with an unhandled exception.
     db.$disconnect()
   },
+  allowGraphiQL: true,
+  allowIntrospection: true,
 })
