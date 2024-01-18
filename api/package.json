@@ -4,6 +4,12 @@
   "private": true,
   "dependencies": {
     "@redwoodjs/api": "6.6.2",
-    "@redwoodjs/graphql-server": "6.6.2"
+    "@redwoodjs/fastify": "6.6.2",
+    "@redwoodjs/graphql-server": "6.6.2",
+    "@redwoodjs/project-config": "6.6.2",
+    "@redwoodjs/realtime": "6.6.2",
+    "chalk": "4.1.2",
+    "fastify": "^4.25.2",
+    "ioredis": "^5"
   }
 }
